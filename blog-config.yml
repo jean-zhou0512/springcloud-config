@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+  server:
+    prot: 8201
+  spring:
+    profiles: dev
+    application:
+      name:blog-confg-client
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://eureka7001.com:7001/eureka/
+---
+  server:
+    prot: 8202
+  spring:
+    profiles: test
+    application:
+      name: blog-config-client
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://eureka7001.com:7001/eureka/
+
