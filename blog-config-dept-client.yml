@@ -9,11 +9,11 @@ spring:
   profiles: dev
   application:
     name: blog-config-dept-client
-    datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://47.102.197.42:3306/clo
-      username: root
-      password: 123456
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.197.42:3306/clo
+    username: root
+    password: 123456
 mybatis:
   mapper-locations: classpath:Mapper/*.xml
   configuration:
