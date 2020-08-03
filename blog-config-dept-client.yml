@@ -1,0 +1,67 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+server:
+  prot: 8085
+spring:
+  profiles: dev
+  application:
+    name: blog-config-dept-client
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.102.197.42:3306/cloud1
+      username: root
+      password: 123456
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+eureka:
+  client: #客户端注册进eureka服务列表内
+  service-url:
+    defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true
+info:
+  app:
+    name: ${spring.application.name}
+  company:
+    name: www.xxx.com
+  build:
+    artifactId: ${project.artifactId}
+    version: ${project.version}
+
+---
+server:
+  port: 8085
+spring:
+  profiles: test
+  application:
+    name: blog-config-dept-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.197.42:3306/cloud2
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+eureka:
+  client: #客户端注册进eureka服务列表内
+  service-url:
+    defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true
+info:
+  app:
+    name: ${spring.application.name}
+  company:
+    name: www.xxx.com
+  build:
+    artifactId: ${project.artifactId}
+    version: ${project.version}
