@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blog-customer" />
+        <module name="blog-config-service" />
+        <module name="blog-service" />
+        <module name="blog-provider3" />
+        <module name="blog-provider2" />
+        <module name="blog-config" />
+        <module name="blog-hystrix-dashboard" />
+        <module name="blog-api" />
+        <module name="blog-config-client" />
+        <module name="blog-config-provider" />
+        <module name="blog-feign" />
+        <module name="blog-zuul" />
+        <module name="blog-service3" />
+        <module name="blog-service2" />
+        <module name="blog-provider" />
+        <module name="blog-provider-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog-config-client (1)" target="1.8" />
+      <module name="blog-config-newclient" target="1.8" />
+      <module name="blog-service4" target="1.8" />
+      <module name="first_springcloud" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-api" options="-parameters" />
+      <module name="blog-config" options="-parameters" />
+      <module name="blog-config-client" options="-parameters" />
+      <module name="blog-config-client (1)" options="-parameters" />
+      <module name="blog-config-newclient" options="-parameters" />
+      <module name="blog-config-provider" options="-parameters" />
+      <module name="blog-config-service" options="-parameters" />
+      <module name="blog-customer" options="-parameters" />
+      <module name="blog-feign" options="-parameters" />
+      <module name="blog-hystrix-dashboard" options="-parameters" />
+      <module name="blog-parent" options="-parameters" />
+      <module name="blog-provider" options="-parameters" />
+      <module name="blog-provider-hystrix" options="-parameters" />
+      <module name="blog-provider2" options="-parameters" />
+      <module name="blog-provider3" options="-parameters" />
+      <module name="blog-service" options="-parameters" />
+      <module name="blog-service2" options="-parameters" />
+      <module name="blog-service3" options="-parameters" />
+      <module name="blog-service4" options="-parameters" />
+      <module name="blog-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

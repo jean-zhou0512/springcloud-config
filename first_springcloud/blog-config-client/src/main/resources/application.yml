@@ -1,0 +1,10 @@
+server:
+  port: 9600
+spring:
+  application:
+    name: blog-config-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://47.102.197.42:3306/mybatis

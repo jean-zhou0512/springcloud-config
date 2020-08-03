@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:9500/ #SpringCloudConfig获取的服务地址
+      name: blog-config-eureka-service #需要从github上读取的资源名成称，注意没有yml后缀名
+      profile: dev
