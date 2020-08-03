@@ -4,7 +4,7 @@ spring:
       - dev
 ---
 server:
-  prot: 8085
+  port: 8085
 spring:
   profiles: dev
   application:
