@@ -1,0 +1,30 @@
+server:
+  port: 9001
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://47.102.197.42:3306/cloud1
+  application:
+    name: blog-provider1
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9003/eureka/
+  instance:
+    instance-id: blog-provider1 #\u6539\u53D8eureka\u4E2D\u7684\u6CE8\u518C\u540D
+    prefer-ip-address: true #\u5728eureka\u6CE8\u518C\u4E2D\u5FC3\u663E\u793Aip\u5730\u5740
+info:
+  app:
+    name: ${spring.application.name}
+  company:
+    name: www.xxx.com
+  build:
+    artifactId: ${project.artifactId}
+    version: ${project.version}
