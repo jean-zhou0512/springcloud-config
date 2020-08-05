@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/myIRule/MyIRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/myIRule/MySelfRoundRabonRule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -194,7 +189,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRoundRobinRule.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="108">
@@ -212,7 +207,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
@@ -1175,7 +1170,7 @@
       <workItem from="1596090609966" duration="8696000" />
       <workItem from="1596100795004" duration="22077000" />
       <workItem from="1596418551741" duration="14929000" />
-      <workItem from="1596521859545" duration="11436000" />
+      <workItem from="1596521859545" duration="11669000" />
     </task>
     <servers />
   </component>
@@ -1185,7 +1180,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153902000" />
+    <option name="totallyTimeSpent" value="154135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
@@ -1572,13 +1567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRoundRobinRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/BlogCustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1590,6 +1578,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRoundRobinRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
