@@ -70,5 +70,9 @@
         <module>../blog-eureka1</module>
         <module>../blog-api</module>
         <module>../blog-provider1</module>
+        <module>../blog-eureka2</module>
+        <module>../blog-eureka3</module>
+        <module>../blog-provider2</module>
+        <module>../blog-customer1</module>
     </modules>
 </project>

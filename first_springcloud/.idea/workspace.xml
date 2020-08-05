@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="" />
+    <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/controller/DepeartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/serviceImpl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/Mapper/depeartmentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/Mapper/depeartmentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/src/main/java/com/cn/blogprovider1/controller/DepeartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/src/main/java/com/cn/blogprovider1/controller/DepeartmentController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/blog-parent/target/" />
@@ -38,7 +57,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71913576">
+    <splitter split-orientation="horizontal" split-proportion="0.8060109">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -54,7 +73,7 @@
             <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/bootstrap.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="162">
-                  <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -63,7 +82,7 @@
             <entry file="file://$PROJECT_DIR$/blog-zuul/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="648">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -81,17 +100,15 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-provider2/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+                <state relative-caret-position="729">
+                  <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-provider-hystrix/src/main/resources/application.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-488" />
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -106,7 +123,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-provider-hystrix/src/main/java/com/cn/blogproviderhystrix/controller/DepeartmentController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="918">
+                <state relative-caret-position="1161">
                   <caret line="55" column="40" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="40" />
                 </state>
               </provider>
@@ -116,7 +133,7 @@
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="324">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                 </state>
               </provider>
             </entry>
@@ -156,7 +173,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-feign/src/main/java/com/cn/blogfeign/myRule/MySelfRoundRobinRule.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-459">
+                <state relative-caret-position="108">
                   <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
                 </state>
               </provider>
@@ -201,8 +218,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/service/DepeartmentService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+                <state relative-caret-position="243">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -226,9 +243,9 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://D:/springcloud-config/blog-config-dept-client.yml">
+            <entry file="file://$PROJECT_DIR$/../blog-config-dept-client.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
+                <state relative-caret-position="567">
                   <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
                 </state>
               </provider>
@@ -237,7 +254,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/controller/DepeartmentController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="837">
+                <state relative-caret-position="945">
                   <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -250,7 +267,7 @@
             <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/Mapper/depeartmentDao.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="378">
-                  <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -267,7 +284,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/BlogConfigProviderApplication.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
+                <state relative-caret-position="162">
                   <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -279,7 +296,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-provider/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
+                <state relative-caret-position="864">
                   <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
                 </state>
               </provider>
@@ -289,7 +306,7 @@
             <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="13" selection-end-column="61" />
+                  <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
@@ -307,7 +324,7 @@
             <entry file="file://$PROJECT_DIR$/blog-config-service/pom.xml">
               <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="332">
+                <state relative-caret-position="1350">
                   <caret line="50" column="21" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
                 </state>
               </provider>
@@ -316,7 +333,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/resources/bootstrap.yml">
               <provider selected="true" editor-type-id="text-editor">
@@ -326,7 +343,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-config-client/src/main/resources/application.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="189">
@@ -336,14 +353,42 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/first_springcloud.iml">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
+              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="579">
+                  <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-parent/pom.xml">
+              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="765">
+                  <caret line="100" column="21" selection-start-line="91" selection-start-column="11" selection-end-line="100" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-parent/src/main/resources/application.properties">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/java/com/cn/blogconfigservice/BlogConfigServiceApplication.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="216">
                   <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#322#323#0" expanded="true" />
-                    <element signature="e#401#402#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -354,6 +399,92 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
                   <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blog-customer/src/main/resources/application.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/src/main/resources/application.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/dao/depeartmentDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/service/depeartmentService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/serviceImpl/depeartmentServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-service/pom.xml">
+              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/controller/DepeartmentController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/application.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="9" column="107" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="107" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-customer/pom.xml">
+              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="622">
+                  <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -375,7 +506,6 @@
       <find>mybatis-spring-boot-starter</find>
       <find>$</find>
       <find>pack</find>
-      <find>web</find>
       <find>cloud</find>
       <find>redis</find>
       <find>spring-cloud-config-server</find>
@@ -392,12 +522,15 @@
       <find>Finchley.RELEASE</find>
       <find>https://github.com/jean-zhou0512/springcloud-config.git</find>
       <find>spring-boot-starter-web</find>
+      <find>web</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog-provider-hystrix/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/BlogCustomerApplication.java" />
         <option value="$PROJECT_DIR$/blog-provider-hystrix/src/main/java/com/cn/blogproviderhystrix/config/ServletRegistrationBean.java" />
         <option value="$PROJECT_DIR$/blog-hystrix-dashboard/src/main/java/com/cn/bloghystrixdashboard/config/HystrixServlet.java" />
@@ -416,7 +549,7 @@
         <option value="$PROJECT_DIR$/blog-parent/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/blog-config-client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/blog-config-client/src/main/resources/application.properties" />
-        <option value="D:/springcloud-config/blog-config.yml" />
+        <option value="$PROJECT_DIR$/../blog-config.yml" />
         <option value="$PROJECT_DIR$/blog-config-client/src/main/java/com/cn/blogconfigclient/rest/ConfigClientRest.java" />
         <option value="$PROJECT_DIR$/blog-config-newclient/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/blog-config-newclient/src/main/java/com/cn/blogconfignewclient/rest/ConfigClientRest.java" />
@@ -424,7 +557,7 @@
         <option value="$PROJECT_DIR$/blog-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/blog-config-newclient/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/blog-config-newclient/src/main/resources/application.yml" />
-        <option value="D:/springcloud-config/blog-config-newclient.yml" />
+        <option value="$PROJECT_DIR$/../blog-config-newclient.yml" />
         <option value="$PROJECT_DIR$/../blog-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/blog-config/src/main/java/com/cn/blogconfig/BlogConfigApplication.java" />
         <option value="$PROJECT_DIR$/blog-config/pom.xml" />
@@ -432,7 +565,7 @@
         <option value="$PROJECT_DIR$/blog-config-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/blog-config-client/src/main/java/com/cn/blogconfigclient/controller/UserController.java" />
         <option value="$PROJECT_DIR$/blog-config-client/src/main/resources/bootstrap.yml" />
-        <option value="D:/springcloud-config/blog-config-eureka-client.yml" />
+        <option value="$PROJECT_DIR$/../blog-config-eureka-client.yml" />
         <option value="$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/serviceImpl/depeartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/controller/DepeartmentController.java" />
         <option value="$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/BlogConfigProviderApplication.java" />
@@ -441,13 +574,14 @@
         <option value="$PROJECT_DIR$/blog-config-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/blog-config-service/src/main/java/com/cn/blogconfigservice/BlogConfigServiceApplication.java" />
         <option value="$PROJECT_DIR$/blog-config-service/pom.xml" />
-        <option value="D:/springcloud-config/blog-config-eureka-service.yml" />
+        <option value="$PROJECT_DIR$/../blog-config-eureka-service.yml" />
         <option value="$PROJECT_DIR$/blog-config-provider/pom.xml" />
         <option value="$PROJECT_DIR$/blog-config-provider/src/main/resources/Mapper/depeartmentDao.xml" />
         <option value="$PROJECT_DIR$/blog-config-service/src/main/resources/application.yml" />
-        <option value="D:/springcloud-config/blog-config-dept-client.yml" />
+        <option value="$PROJECT_DIR$/../blog-config-dept-client.yml" />
         <option value="$PROJECT_DIR$/blog-config-provider/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/blog-provider2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/blog-parent/pom.xml" />
       </list>
     </option>
   </component>
@@ -504,11 +638,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-11" />
-    <option name="width" value="1940" />
+    <option name="width" value="3138" />
     <option name="height" value="2111" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages PackagesPane="false" ProjectPane="false" />
@@ -524,352 +659,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
-              <item name="com.cn.blogfeign" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
-              <item name="com.cn.blogfeign" type="1f31426a:PackageElementNode" />
-              <item name="BlogFeignApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-service" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-service" type="616d4139:PackageViewModuleNode" />
-              <item name="com.cn.blogservice" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="blog-service2" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="blogcustomer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="blogcustomer" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="blogcustomer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogfeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="myRule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogproviderhystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogproviderhystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-provider2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blogzuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -1002,12 +791,148 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogapi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="DepeartmentService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
+              <item name="com.cn.blogfeign" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-feign" type="616d4139:PackageViewModuleNode" />
+              <item name="com.cn.blogfeign" type="1f31426a:PackageElementNode" />
+              <item name="BlogFeignApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-service" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-service" type="616d4139:PackageViewModuleNode" />
+              <item name="com.cn.blogservice" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog-service2" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-proj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1219,6 +1144,7 @@
       <workItem from="1596090609966" duration="8696000" />
       <workItem from="1596100795004" duration="22077000" />
       <workItem from="1596418551741" duration="14929000" />
+      <workItem from="1596521859545" duration="10720000" />
     </task>
     <servers />
   </component>
@@ -1228,13 +1154,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142466000" />
+    <option name="totallyTimeSpent" value="153186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
+    <frame x="-7" y="0" width="2092" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="501" y="134" width="346" height="1260" id="Project" order="0" visible="true" weight="0.21176003" />
+      <window_info content_ui="combo" x="501" y="134" width="346" height="1260" id="Project" order="0" visible="true" weight="0.100294985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1259,7 +1185,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.41862348" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4183874" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1275,65 +1201,6 @@
     <SUITE FILE_PATH="coverage/first_springcloud$BlogConfigNewclientApplication.ic" NAME="BlogConfigNewclientApplication Coverage Results" MODIFIED="1596101280815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-service3/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://D:/springcloud-config/blog-config-eureka-client.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider2/src/test/java/com/cn/blogprovider2/BlogProvider2ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/service/depeartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/dao/depeartmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/serviceImpl/depeartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/BlogProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1350,14 +1217,6 @@
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="58" column="27" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1390,172 +1249,59 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-config-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="43" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/springcloud-config/blog-config-eureka-service.yml">
+    <entry file="file://$PROJECT_DIR$/../blog-config-eureka-service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-779">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/java/com/cn/blogconfigservice/BlogConfigServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-config-provider/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="73" column="21" selection-start-line="17" selection-start-column="7" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/Mapper/depeartmentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/BlogConfigProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/controller/DepeartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="50" column="21" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/springcloud-config/blog-config-dept-client.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-zuul/src/main/java/com/cn/blogzuul/BlogZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-zuul/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider2/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider2/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="729">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider-hystrix/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider-hystrix/src/main/java/com/cn/blogproviderhystrix/BlogProviderHystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1566,15 +1312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider-hystrix/src/main/java/com/cn/blogproviderhystrix/controller/DepeartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="1161">
           <caret line="55" column="40" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1582,13 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-feign/src/main/java/com/cn/blogfeign/myRule/MySelfRoundRobinRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
+        <state relative-caret-position="108">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
@@ -1630,13 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/config/DeptClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/BlogApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1644,10 +1369,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/config/DeptClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-zuul/src/main/java/com/cn/blogzuul/BlogZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog-config-dept-client.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/controller/DepeartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/Mapper/depeartmentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/java/com/cn/blogconfigprovider/BlogConfigProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="21" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/java/com/cn/blogconfigservice/BlogConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_springcloud.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-parent/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-config-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/dao/depeartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/service/depeartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/controller/DepeartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/serviceImpl/depeartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="100" column="21" selection-start-line="91" selection-start-column="11" selection-end-line="100" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/service/DepeartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="243">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

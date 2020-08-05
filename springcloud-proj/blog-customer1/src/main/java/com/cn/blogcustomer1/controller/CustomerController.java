@@ -14,8 +14,18 @@ public class CustomerController {
     @Autowired
     private RestTemplate restTemplate;
 
+    private static String SPRINGCLOUD_PROVIDER= "http://BLOG-PROVIDER1";
+
+
     @RequestMapping(value="/service/dept/getList")
     public List<Department> getList(){
-        return restTemplate.getForObject("http://localhost:9001/service/dep/qryDepartmentList",List.class);
+        return restTemplate.getForObject(SPRINGCLOUD_PROVIDER+"/service/dep/qryDepartmentList",List.class);
     }
+
+    @RequestMapping(value="/service/dept/discovery")
+    public Object discovery(){
+        return restTemplate.getForObject(SPRINGCLOUD_PROVIDER+"/service/dept/discovery",Object.class);
+    }
+
+
 }
