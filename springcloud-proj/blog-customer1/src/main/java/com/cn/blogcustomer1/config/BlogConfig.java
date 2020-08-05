@@ -12,4 +12,10 @@ public class BlogConfig {
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
+
+//    @Bean
+//    public IRule getIRule(){
+////        return new RandomRule();//随机算法
+//        return new RetryRule();
+//    }
 }

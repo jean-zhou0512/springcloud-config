@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/controller/DepeartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/java/com/cn/blogprovider2/serviceImpl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/Mapper/depeartmentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/Mapper/depeartmentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/myIRule/MyIRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/BlogCustomer1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/config/BlogConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/java/com/cn/blogcustomer1/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-customer1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/src/main/java/com/cn/blogprovider1/controller/DepeartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider1/src/main/java/com/cn/blogprovider1/controller/DepeartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-provider3/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,24 +53,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="162">
                   <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blog-config-provider/src/main/resources/bootstrap.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blog-zuul/src/main/resources/application.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -141,8 +111,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/BlogCustomerApplication.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                <state relative-caret-position="189">
+                  <caret line="11" column="51" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -215,16 +185,34 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/service/DepeartmentService.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="243">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRoundRobinRule.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRule.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
@@ -407,7 +395,7 @@
             <entry file="file://$PROJECT_DIR$/blog-customer/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="324">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                 </state>
               </provider>
             </entry>
@@ -638,9 +626,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
-    <option name="width" value="3138" />
+    <option name="width" value="1940" />
     <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -857,6 +845,49 @@
               <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="blogcustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="blogcustomer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="myRule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first_springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -1144,7 +1175,7 @@
       <workItem from="1596090609966" duration="8696000" />
       <workItem from="1596100795004" duration="22077000" />
       <workItem from="1596418551741" duration="14929000" />
-      <workItem from="1596521859545" duration="10720000" />
+      <workItem from="1596521859545" duration="11436000" />
     </task>
     <servers />
   </component>
@@ -1154,13 +1185,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153186000" />
+    <option name="totallyTimeSpent" value="153902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="2092" height="1407" extended-state="1" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="501" y="134" width="346" height="1260" id="Project" order="0" visible="true" weight="0.100294985" />
+      <window_info active="true" content_ui="combo" x="501" y="134" width="346" height="1260" id="Project" order="0" visible="true" weight="0.12435439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1201,25 +1232,6 @@
     <SUITE FILE_PATH="coverage/first_springcloud$BlogConfigNewclientApplication.ic" NAME="BlogConfigNewclientApplication Coverage Results" MODIFIED="1596101280815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-provider/src/main/java/com/cn/blogprovider/BlogProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-config/src/main/java/com/cn/blogconfig/BlogConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/cn/blogservice/BlogServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1317,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/BlogCustomerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/controller/DepartmentCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1362,24 +1367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/BlogApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/config/DeptClientServiceFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1560,10 +1551,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/BlogApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/cn/blogapi/service/DepeartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/myRule/MySelfRoundRobinRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/BlogCustomerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-customer/src/main/java/com/cn/blogcustomer/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>

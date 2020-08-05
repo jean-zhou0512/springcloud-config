@@ -18,7 +18,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:9003/eureka/
   instance:
-    instance-id: blog-provider1 #\u6539\u53D8eureka\u4E2D\u7684\u6CE8\u518C\u540D
+    instance-id: blog-provider2 #\u6539\u53D8eureka\u4E2D\u7684\u6CE8\u518C\u540D
     prefer-ip-address: true #\u5728eureka\u6CE8\u518C\u4E2D\u5FC3\u663E\u793Aip\u5730\u5740
 info:
   app:
