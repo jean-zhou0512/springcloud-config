@@ -12,6 +12,8 @@ public class MySelfRoundRabonRule  extends AbstractLoadBalancerRule {
     private AtomicInteger nextServerCyclicCounter;
     private static final boolean AVAILABLE_ONLY_SERVERS = true;
     private static final boolean ALL_SERVERS = false;
+    private static final int ROUND_COUNT = 5;
+    private static int CURREN_COUNT = 1;
 
     private static Logger log = LoggerFactory.getLogger(RoundRobinRule.class);
 
@@ -75,10 +77,17 @@ public class MySelfRoundRabonRule  extends AbstractLoadBalancerRule {
      */
     private int incrementAndGetModulo(int modulo) {
         for (;;) {
-            int current = nextServerCyclicCounter.get();
-            int next = (current + 1) % modulo;
-            if (nextServerCyclicCounter.compareAndSet(current, next))
-                return next;
+            if(CURREN_COUNT < ROUND_COUNT){
+                int current = nextServerCyclicCounter.get();
+                CURREN_COUNT++;
+                return current;
+            }else{
+                CURREN_COUNT = 1;
+                int current = nextServerCyclicCounter.get();
+                int next = (current + 1) % modulo;
+                if (nextServerCyclicCounter.compareAndSet(current, next))
+                    return next;
+            }
         }
     }
 

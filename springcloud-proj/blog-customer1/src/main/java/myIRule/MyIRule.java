@@ -10,6 +10,6 @@ public class MyIRule {
 
     @Bean
     public IRule getMyIRule(){
-        return new RandomRule();
+        return new MySelfRoundRabonRule();
     }
 }
