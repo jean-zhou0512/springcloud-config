@@ -18,7 +18,7 @@ eureka:
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
-      defaultZone: http://localhost:9004/eureka/,http://localhost:9005/eureka/,http://localhost:9013/eureka/
+      defaultZone: http://localhost:9004/eureka/,http://localhost:9005/eureka/,http://localhost:9003/eureka/
 ---
 server:
   port: 9013 #注册中心占用7001端口,冒号后面必须要有空格
@@ -35,4 +35,4 @@ eureka:
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
-      defaultZone: http://localhost:9004/eureka/,http://localhost:9005/eureka/,http://localhost:9013/eureka/
+      defaultZone: http://localhost:9004/eureka/,http://localhost:9005/eureka/,http://localhost:9003/eureka/
