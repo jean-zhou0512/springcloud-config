@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9012
+      profile: dev
+      name: blog-config-eureka-service
+      label: master
