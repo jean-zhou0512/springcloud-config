@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud-proj/blog-config-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-proj/blog-eureka1/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5540dd40-68d3-47af-a630-2d4896a4e6c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/blog-parent/target/" />

@@ -4,7 +4,7 @@ spring:
       - dev
 ---
 server:
-  port: 8085
+  port: 9014
 spring:
   profiles: dev
   application:
@@ -21,7 +21,7 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka
+      defaultZone: http://localhost:9003/eureka
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
@@ -36,7 +36,7 @@ info:
 
 ---
 server:
-  port: 8085
+  port: 9014
 spring:
   profiles: test
   application:
@@ -53,7 +53,7 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka
+      defaultZone: http://localhost:9003/eureka
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
