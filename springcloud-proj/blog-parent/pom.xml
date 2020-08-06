@@ -74,5 +74,12 @@
         <module>../blog-eureka3</module>
         <module>../blog-provider2</module>
         <module>../blog-customer1</module>
+        <module>../blog-feign</module>
+        <module>../blog-provider3</module>
+        <module>../blog-hystrix-provider1</module>
+        <module>../blog-hystrix-dashboard</module>
+        <module>../blog-zuul</module>
+        <module>../blog-config</module>
+        <module>../blog-config-client</module>
     </modules>
 </project>

@@ -9,15 +9,15 @@
         <module name="blog-customer" />
         <module name="blog-config-service" />
         <module name="blog-service" />
-        <module name="blog-provider3" />
+        <module name="blog-config-client" />
         <module name="blog-provider2" />
         <module name="blog-config" />
         <module name="blog-hystrix-dashboard" />
         <module name="blog-api" />
-        <module name="blog-config-client" />
         <module name="blog-config-provider" />
         <module name="blog-feign" />
         <module name="blog-zuul" />
+        <module name="blog-provider3" />
         <module name="blog-service3" />
         <module name="blog-service2" />
         <module name="blog-provider" />

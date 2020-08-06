@@ -1,75 +1,38 @@
-#spring:
-#  profiles:
-#    active:
-#      - dev
-#---
-#server:
-#  port: 7001 #注册中心占用7001端口，冒号后面必须要要有空格
-#spring:
-#  profiles: dev
-#  aplication:
-#    name: blog-config-eureka-service
-#
-#eureka:
-#  instance:
-#    hostname: eureka7001.com #冒号后面必须要有空格
-#  client:
-#    register-with-eureka: false #当前的eureka-server自己不注册金服务列表中
-#    fetch-rigistry: false #不通过eureka获取注册信息
-#    service-url:
-#      defaultZone: http://localhost:7001/eureka/
-#---
-#server:
-#  port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
-#spring:
-#  profiles: test
-#  application:
-#    name: blog-config-eureka-service
-#eureka:
-#  instance:
-#    hostname: eureka7001.com #冒号后面必须要有空格
-#  client:
-#    register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
-#    fetch-register: false #当前的eureka-server自己不注册进服务列表中
-#    service-url:
-#      defaultZone: http://localhost:7001/eureka/
-#
-
 spring:
   profiles:
     active:
     - dev
 ---
 server:
-  port: 7001 #注册中心占用7001端口,冒号后面必须要有空格
+  port: 9013 #注册中心占用7001端口,冒号后面必须要有空格
 
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-eureka-client
+    name: blog-config-eureka
 
 eureka:
   instance:
-    hostname: eureka7001.com #冒号后面必须要有空格
+    hostname: localhost:9013 #冒号后面必须要有空格
   client:
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://localhsot:9013/eureka/
 ---
 server:
-  port: 7001 #注册中心占用7001端口,冒号后面必须要有空格
+  port: 9013 #注册中心占用7001端口,冒号后面必须要有空格
 
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-eureka-client
+    name: blog-config-eureka
 
 eureka:
   instance:
-    hostname: eureka7001.com #冒号后面必须要有空格
+    hostname: localhost:9013 #冒号后面必须要有空格
   client:
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://localhsot:9013/eureka/
