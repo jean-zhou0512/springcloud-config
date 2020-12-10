@@ -1,2 +1,2 @@
 spring:
-  cloud: I am the git configurarion file from test environment. I will edit it. update
+  cloud: I am the git configurarion file from test environment. I will edit it. version=1.0
